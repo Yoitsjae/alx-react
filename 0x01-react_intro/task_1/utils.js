@@ -1,0 +1,8 @@
+// task_1/dashboard/src/utils.js
+const getFullYear = () => new Date().getFullYear();
+
+const getFooterCopy = (isIndex) => {
+  return isIndex ? "Holberton School" : "Holberton School main dashboard";
+};
+
+export { getFullYear, getFooterCopy };

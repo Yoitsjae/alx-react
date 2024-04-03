@@ -1,0 +1,27 @@
+// task_2/dashboard/src/App.js
+import React from 'react';
+import logo from './logo.svg';
+import { getFullYear, getFooterCopy } from './utils';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>School dashboard</h1>
+      </header>
+      <body className="App-body">
+        <p>Login to access the full dashboard</p>
+        <label>Email: <input type="email" /></label><br />
+        <label>Password: <input type="password" /></label><br />
+        <button>OK</button>
+      </body>
+      <footer className="App-footer">
+        <p>{getFooterCopy(true)}</p>
+      </footer>
+    </div>
+  );
+}
+
+export default App;

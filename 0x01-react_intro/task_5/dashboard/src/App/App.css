@@ -1,0 +1,22 @@
+/* task_5/dashboard/src/App/App.css */
+
+/* Styles for the header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for the main content area */
+.main-content {
+  margin: 20px;
+}
+
+/* Styles for the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
