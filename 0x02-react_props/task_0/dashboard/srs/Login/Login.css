@@ -1,0 +1,28 @@
+/* task_0/dashboard/src/Login/Login.css */
+
+.login-form {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
