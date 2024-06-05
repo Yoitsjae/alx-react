@@ -20,7 +20,7 @@ describe('normalizedData', () => {
         ]);
     });
 
-    it('contains correct user entity', () => {
+    it('contain correct user entity', () => {
         expect(normalizedData.entities.users['5debd764a7c57c7839d722e9']).toEqual({
             age: 25,
             email: "poole.sanders@holberton.nz",
