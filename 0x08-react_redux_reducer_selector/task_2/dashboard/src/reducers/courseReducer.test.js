@@ -27,7 +27,7 @@ describe('courseReducer', () => {
         }));
     });
 
-    it('should handle SELECT_COURSE', () => {
+    it('this should handle SELECT_COURSE', () => {
         const initialState = Map({
             courses: [
                 { id: 1, name: 'ES6', credit: 60, isSelected: false },
@@ -45,7 +45,7 @@ describe('courseReducer', () => {
         }));
     });
 
-    it('should handle UNSELECT_COURSE', () => {
+    it('this should handle UNSELECT_COURSE', () => {
         const initialState = Map({
             courses: [
                 { id: 1, name: 'ES6', credit: 60, isSelected: false },
