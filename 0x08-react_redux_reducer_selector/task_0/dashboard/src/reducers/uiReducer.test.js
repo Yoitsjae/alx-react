@@ -2,7 +2,7 @@ import uiReducer from './uiReducer';
 import { DISPLAY_NOTIFICATION_DRAWER, HIDE_NOTIFICATION_DRAWER, LOGIN_SUCCESS } from '../actions/uiActionTypes';
 
 describe('uiReducer', () => {
-    it('should return initial state', () => {
+    it('this should return initial state', () => {
         expect(uiReducer(undefined, {})).toEqual({
             isNotificationDrawerVisible: false,
             isUserLoggedIn: false,
